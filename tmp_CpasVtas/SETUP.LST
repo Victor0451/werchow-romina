@@ -1,0 +1,31 @@
+[BootStrap]
+File1=1,,Setup1.ex_,Setup1.exe,$(WinPath),,,10/24/2014 12:51:38,305152,5.0.0.3716,"","",""
+File2=1,,VB5StKit.dl_,VB5StKit.dll,$(WinSysPath),,$(Shared),2/20/1997 0:00:00,29696,5.0.37.16,"","",""
+[Files]
+File1=1,,CpasVtas.ex_,CpasVtas.exe,$(AppPath),,,9/16/2015 15:22:55,915968,1.0.0.0,"","Compras y Ventas","$(AppPath)\CpasVtas.exe"
+File2=1,,NroMagico.dl_,NroMagico.dll,$(WinSysPath),$(DLLSelfRegister),$(Shared),8/20/2002 14:05:02,16896,1.0.0.0,"","",""
+File3=1,,FECHA32.OC_,FECHA32.OCX,$(WinSysPath),$(DLLSelfRegister),$(Shared),3/5/1999 16:03:44,38912,4.0.0.12,"","",""
+File4=1,,filewin2.dl_,filewin2.dll,$(WinSysPath),,$(Shared),2/14/2014 16:24:08,405504,,"","",""
+File5=1,,Cuit32.oc_,Cuit32.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),7/2/2002 11:51:58,61952,6.0.0.0,"","",""
+File6=1,,ventas.rp_,ventas.rpt,$(AppPath),,,11/18/2014 14:00:51,10214,,"","",""
+File7=1,,alicuotas.rp_,alicuotas.rpt,$(AppPath),,,11/18/2014 14:01:06,6985,,"","",""
+File8=1,,Compras y Ventas2.ic_,Compras y Ventas2.ico,$(AppPath),,,7/11/2013 15:37:32,2238,,"","",""
+File9=1,,Compras y Ventas.ic_,Compras y Ventas.ico,$(AppPath),,,7/11/2013 10:50:14,2238,,"","",""
+File10=1,,compras.rp_,compras.rpt,$(AppPath),,,1/21/2015 14:32:08,12006,,"","",""
+File11=1,,CpasVtas.cn_,CpasVtas.cnt,$(AppPath),,,7/6/2015 10:36:08,2142,,"","",""
+File12=1,,CpasVtas.hl_,CpasVtas.hlp,$(AppPath),,,7/6/2015 10:36:08,88677,,"","",""
+File13=1,,f4502.rp_,f4502.rpt,$(AppPath),,,4/24/2015 16:35:06,123771,,"","",""
+File14=1,,reporteerrores.rp_,reporteerrores.rpt,$(AppPath),,,1/20/2015 14:24:27,3355,,"","",""
+File15=1,,servicios.rp_,servicios.rpt,$(AppPath),,,4/24/2015 15:42:52,9060,,"","",""
+File16=1,,SI010000.Md_,SI010000.Mdb,$(AppPath),,,9/16/2015 14:35:49,315392,,"","",""
+File17=1,,detalleventas.rp_,detalleventas.rpt,$(AppPath),,,6/29/2015 15:08:41,26013,,"","",""
+File18=1,,detallecompras.rp_,detallecompras.rpt,$(AppPath),,,5/29/2015 15:14:33,28049,,"","",""
+
+[Setup]
+Title=Regimen de Información de Compras y Ventas V.1.0
+DefProgramGroup=AFIP - Aplicaciones
+DefaultDir=$(ProgramFiles)\CpasVtas
+Setup=Setup1.exe
+AppExe=CpasVtas.exe
+AppToUninstall=CpasVtas.exe
+AppPath=

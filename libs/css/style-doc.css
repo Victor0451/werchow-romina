@@ -1,0 +1,146 @@
+body { 
+	margin: 0; padding: 0; 
+	font-family: Verdana;	font-size: 1.1em;
+	
+}
+
+#encabezado{ 
+	width: 900px; 
+	height: 50px; 
+	position: relative;
+	
+	left: 50%;
+	margin-left: -450px;
+	margin-top: 5px;
+}
+
+/* menu */
+
+#menu-wrapper {
+	overflow: hidden;
+	width: 900px;
+	height: 30px;
+	background: #1973A4;
+	position: relative;
+	left: 50%;
+	margin-left: -450px;
+	margin-top: 1px;
+}
+
+#menu {
+	width: 800px;
+	margin: 0px auto;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	margin-right: 1px;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 30px;
+	margin: 0px;
+	padding: 0px 30px 0px 30px;
+	line-height: 30px;
+	letter-spacing: -1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Gautami";
+	font-size: 14px;
+	font-weight: normal;
+	color: #B5B5B5;
+	border: none;
+}
+
+#menu .current_page_item a {
+	background: #023e5f;
+	color: #FFF;
+}
+
+#menu a:hover {
+	background: #023e5f;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#contenido{
+	width: 900px; height: auto;
+	position: relative;
+	left: 50%;
+	margin-left: -450px;
+	margin-top: 1px;
+	/*background: #023e5f;*/
+	color:black;
+}
+
+#contenido h1 {
+	font-family: monospace;
+	margin-top: 1em;
+	font-size: 1.5em;
+	
+	line-height: 1.6em;
+	color: #4E6CA3;
+	border-bottom: 1px solid #B0BED9;
+}
+
+#contenido h2 {
+	font-family: monospace;
+	margin-top: 1em;
+	font-size: 0.7em;
+	
+	line-height: 1.6em;
+	/*color: #4E6CA3;*/
+	border-bottom: 1px solid red;
+}
+
+#contenido p{
+	font-family: monospace;
+	font-size: 1.5em;
+	line-height: 40px;
+	text-align: justify;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+table{
+	font-size: 0.8em;
+}
+
+#firma{
+	font-family: monospace;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+/* Footer */
+
+#footer {
+	width: 900px;
+	height: 55px;
+	margin: 0px auto 40px auto;
+	border-top: 1px solid #B6BFD0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.6em;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 18px;
+	line-height: normal;
+	text-align: center;
+	color: #576475;
+}
+
+#footer a {
+	color: #576475;
+}
